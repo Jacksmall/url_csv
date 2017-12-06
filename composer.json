@@ -1,0 +1,32 @@
+{
+  "name" : "jacksmall/scanner",
+  "description" : "Scan URLS from CSV file",
+  "keywords" : ["url", "scanner", "csv"],
+  "homepage" : "https://github.com/Jacksmall/My_Application",
+  "license" : "MIT",
+  "authors" : [
+    {
+      "name" : "JackSmall",
+      "homepage" : "https://github.com/Jacksmall",
+      "role" : "Developer"
+    }
+  ],
+  "support" : {
+    "email" : "812254315@qq.com"
+  },
+  "require" : {
+    "php" : ">=5.4.0",
+    "guzzlehttp/guzzle" : "~5.0"
+  },
+  "require-dev" : {
+    "phpunit/phpunit" : "~4.3"
+  },
+  "suggest" : {
+    "league/csv" : "~6.0"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Jack\\test\\" : "src/"
+    }
+  }
+}
